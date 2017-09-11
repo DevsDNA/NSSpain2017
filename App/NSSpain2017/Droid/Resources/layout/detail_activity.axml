@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <ImageView
+                android:src="@drawable/SessionHeaderBackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+            <ImageView
+                android:src="@drawable/Gradient"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:alpha="0.5" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="28dp">
+                <ImageView
+                    android:src="@drawable/SessionHeaderOverlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DetailTitleTextView"
+                    tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque diam erat, sodales in libero in, pellentesque egestas felis"
+                    android:lineSpacingExtra="1.4dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="14dp"
+                    android:gravity="center" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="17.5dp"
+            android:paddingRight="14dp"
+            android:paddingBottom="14dp"
+            android:paddingLeft="14dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DescriptionTextView"
+                tools:text="Aenean lobortis efficitur lorem, in interdum erat pellentesque feugiat. Phasellus eu ultrices erat. Nam laoreet ligula ut mauris suscipit lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc id feugiat diam.   Donec mollis felis dolor, vel laoreet magna ultricies ut. Donec porta orci libero, vel pellentesque libero tempus vitae. Morbi condimentum cursus eleifend. Duis efficitur enim ullamcorper, condimentum magna at, iaculis est. Sed tincidunt eleifend lectus, nec dictum nibh. Integer in ipsum sed enim lobortis porttitor eget eget ligula.   Maecenas in sem nibh. Integer magna sem, lacinia vitae mi sed, cursus volutpat elit. Phasellus quis libero nec odio lacinia fringilla."
+                android:lineSpacingExtra="1.4dp"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/DescriptionSpeakersTextView"
+                android:layout_marginTop="28dp"
+                tools:text="🎤 Speaker 1 (Job Title)"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

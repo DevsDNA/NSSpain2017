@@ -1,0 +1,75 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/build/Release-iphoneos/MXParallaxHeader/MXParallaxHeader.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MXParallaxHeader-Swift.h",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/build/Release-iphoneos/MXParallaxHeader/MXParallaxHeader.framework/Headers/MXParallaxHeader-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MXParallaxHeader-umbrella.h",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/Pods/Target Support Files/MXParallaxHeader/MXParallaxHeader-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MXParallaxHeader.h",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/Pods/MXParallaxHeader/MXParallaxHeader/MXParallaxHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MXScrollView.h",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/Pods/MXParallaxHeader/MXParallaxHeader/MXScrollView.h"
+        },
+        {
+          'type': 'file',
+          'name': "MXScrollViewController.h",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/Pods/MXParallaxHeader/MXParallaxHeader/MXScrollViewController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/build/Release-iphoneos/MXParallaxHeader/MXParallaxHeader.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/build/Pods.build/Release-iphoneos/MXParallaxHeader.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/build/Release-iphoneos/Pods_ObjectiveSharpieIntegration.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ObjectiveSharpieIntegration-umbrella.h",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/Pods/Target Support Files/Pods-ObjectiveSharpieIntegration/Pods-ObjectiveSharpieIntegration-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ObjectiveSharpieIntegration-Swift.h",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/build/Release-iphoneos/Pods_ObjectiveSharpieIntegration.framework/Headers/Pods_ObjectiveSharpieIntegration-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/build/Release-iphoneos/Pods_ObjectiveSharpieIntegration.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/oriolnoyaginer/DevsDNA/Repositories/NSSpain2017/App/NSSpain2017/build/Pods.build/Release-iphoneos/Pods-ObjectiveSharpieIntegration.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

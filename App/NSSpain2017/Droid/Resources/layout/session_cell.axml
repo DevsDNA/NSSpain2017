@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="0dp"
+    android:paddingTop="14dp"
+    android:paddingRight="14dp"
+    android:paddingLeft="14dp"
+    android:clipToPadding="false">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="9:00"
+        android:textStyle="bold"
+        android:id="@+id/StartDateTextView" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/StartDateTextView"
+        android:layout_alignLeft="@id/StartDateTextView"
+        android:layout_alignRight="@id/StartDateTextView"
+        android:layout_marginTop="7dp">
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#808080"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/StartDateTextView"
+            android:id="@+id/DurationTextView"
+            tools:text="2 h"
+            android:textStyle="italic"
+            android:layout_centerInParent="true"
+            android:background="?android:attr/colorBackground"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp" />
+    </RelativeLayout>
+    <TextView
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque diam erat, sodales in libero in, pellentesque egestas felis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/StartDateTextView"
+        android:id="@+id/TitleTextView"
+        android:layout_marginLeft="14dp"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@id/StartDateTextView" />
+    <TextView
+        tools:text="Speaker 1 (Job Title) &amp; Speaker 2 (Job Title)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SpeakersTextView"
+        android:layout_alignLeft="@id/TitleTextView"
+        android:layout_marginTop="14dp"
+        android:textSize="11sp"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="14dp"
+        android:layout_below="@id/TitleTextView" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#808080"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-14dp"
+        android:layout_alignLeft="@id/TitleTextView" />
+</RelativeLayout>
